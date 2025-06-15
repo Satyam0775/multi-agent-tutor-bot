@@ -57,7 +57,7 @@ multi-agent-tutor-bot/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── railway.json
+├── vercel.json
 🛠️ Tech Stack
 FastAPI 🚀
 
