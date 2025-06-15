@@ -5,9 +5,6 @@
 ✅ Final README Update
 You can now update your README.md file like this:
 
-markdown
-Copy
-Edit
 # 🎓 Multi-Agent Tutor Bot
 
 This is a simple FastAPI-based backend project that simulates a tutor bot with multiple agents (Math, Physics, General). It can handle different types of questions and respond using relevant logic for each subject.
@@ -23,6 +20,7 @@ You can test the deployed project here:
 Returns a welcome message.
 
 ### `POST /ask`
+https://multi-agent-tutor-bot.vercel.app/ask
 Send a question to the tutor bot.
 
 #### Example (Using Postman or `curl`):
@@ -34,15 +32,12 @@ Send a question to the tutor bot.
 Response:
 
 json
-Copy
-Edit
+
 {
   "answer": "The value of gravitational constant is 6.674 × 10^-11 N·m²/kg²"
 }
 📁 Project Structure
 bash
-Copy
-Edit
 multi-agent-tutor-bot/
 ├── api/
 │   └── main.py            # FastAPI app
@@ -69,11 +64,3 @@ Postman/cURL for testing 🔧
 
 📄 License
 MIT © 2025 Satyam Kumar
-
-yaml
-Copy
-Edit
-
----
-
-Would you like me to make a pull request with this README update to your GitHub repo?
